@@ -1,0 +1,17 @@
+{
+  "name": "pdf_image_enhancer",
+  "description": "Enhance scanned PDF files for better OCR (denoise, sharpen, contrast, resize). Input: PDF, Output: enhanced PDF.",
+  "version": "0.1.0",
+  "routes": [
+    {
+      "path": "/enhance_pdf",
+      "method": "POST",
+      "input": {
+        "file": "file"
+      },
+      "output": {
+        "file": "pdf"
+      }
+    }
+  ]
+}
